@@ -10,11 +10,15 @@ h1{
   text-align: center; 
 }
 
+div.nav {
+ background: #e5e2d9;
+ border: 1px;
+}
+
 nav{
  display: flex;
  position: fixed;
- background: #e5e2d9;
- border: 1px;
+
 }
 
 img.logo {
