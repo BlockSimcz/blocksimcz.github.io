@@ -1,22 +1,27 @@
 body{
   background-color:#dedede;
 }
-h1{
-  text-align: center; 
-}
-
-img.logo {
-  width: 100px;
-  border-radius: 50%;
-}
 
 header{
 
 }
+h1{
+  text-align: center; 
+}
+
+nav{
+ display: flex;
+ position: fixed;
+}
+
+img.logo {
+  left: 3%;
+  width: 100px;
+  border-radius: 50%;
+}
 
 .nav-links {
   display: flex;    
-  display: flex;
   gap: 2rem;
   list-style: none;
   position: fixed;
