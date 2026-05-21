@@ -3,7 +3,7 @@ body{
 }
 
 header{
-position: relative;
+position: fixed;
 display: flex;
 }
 h1{
@@ -13,28 +13,27 @@ h1{
 
 div.nav {
  display: flex;
- position: fixed;
  background: #3e80db;
- border-bottom: 2px solid color(#000000);
+ border-bottom: 2px solid #000000;
 }
 
 nav{
  display: flex;
- position: fixed;
 
 }
 
 img.logo {
+  position: relative;
   left: 4%;
   width: 100px;
   border-radius: 50%;
 }
 
 .nav-links {
+  position: relative;
   display: flex;    
   gap: 2rem;
   list-style: none;
-  position: fixed;
   right: 3%;
 }
 
@@ -45,6 +44,5 @@ img.logo {
   img.logo {
   left: 2%;
   width: 30px;
-  border-radius: 50%;
 }
 }
