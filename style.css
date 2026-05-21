@@ -5,6 +5,7 @@ body{
 header{
 position: fixed;
 display: flex;
+justify-content: space-between;
 }
 h1{
   text-align: center; 
@@ -13,8 +14,8 @@ h1{
 
 div.nav {
  display: flex;
- background: #3e80db;
- border-bottom: 2px solid #000000;
+ background: #e0e5d9;
+ border: 2px solid #e0e5d9;
 }
 
 nav{
