@@ -16,7 +16,7 @@ a{
   font-size: 20px;
 }
 
-div.nav {
+div {
  display: flex;
  background: #bfbfbf;
  width: 100%;
