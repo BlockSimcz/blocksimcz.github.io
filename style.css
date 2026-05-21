@@ -3,8 +3,8 @@ body{
 }
 
 header{
-
-
+position: relative;
+display: flex;
 }
 h1{
   text-align: center; 
@@ -12,10 +12,10 @@ h1{
 /* background: #e0e5d9;*/
 
 div.nav {
-  display: block;
+ display: flex;
  position: fixed;
  background: #3e80db;
- border: 1px;
+ border-bottom: 2px solid color(#000000);
 }
 
 nav{
