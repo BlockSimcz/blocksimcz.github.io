@@ -32,11 +32,12 @@ img.logo {
 }
 
 .nav-links {
-  position: ;
+  position: relative;
   display: flex;    
   gap: 2rem;
   list-style: none;
-  right: 3%;
+  margin-left: 170%;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
