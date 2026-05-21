@@ -35,3 +35,13 @@ img.logo {
   right: 3%;
 }
 
+@media (max-width: 600px) {
+  body{
+    font-size: 12px;
+  }
+  img.logo {
+  left: 2%;
+  width: 30px;
+  border-radius: 50%;
+}
+}
