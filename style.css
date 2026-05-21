@@ -9,7 +9,10 @@ flex-direction: column;
 h1{
   text-align: center; 
 }
-/* background: #e0e5d9;*/
+
+a{
+  color: black;
+}
 
 div.nav {
  display: flex;
